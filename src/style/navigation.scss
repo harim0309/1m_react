@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigationWrap{
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    // padding: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    img{
+        margin: auto 25px;
+        filter: grayscale(1);
+    }
+
+    .selected{
+        filter: grayscale(0);
+    }
+}
