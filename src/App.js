@@ -9,7 +9,7 @@ import Search from "./pages/Search";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     {/* <Splash></Splash> */}
     <Navigation />
          <Routes>
